@@ -63,7 +63,7 @@ async def dmspam(client: Client, message: Message):
     if  len(alt) == 4:
         uid = int(alt[2])
         if uid in THE_ALTS:
-            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ᴀʟᴛʀᴏɴ x`")
+            await message.reply_text(f"`ᴠᴇʀɪғɪᴇᴅ ʙʏ ɢᴏᴅғᴀᴛʜᴇʀ x`")
         elif uid in SUDO_USERS:
             await message.reply_text(f"`ᴛʜɪs ᴘᴇʀsᴏɴ ɪs ᴍʏ sᴜᴅᴏ ᴜsᴇʀ`")
         else:
