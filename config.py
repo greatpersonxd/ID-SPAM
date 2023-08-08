@@ -8,7 +8,7 @@ API_ID = int(getenv("API_ID", "863616"))
 API_HASH = getenv("API_HASH", "d4fb9f1a28a828fb42b05f2362ee8760")
 SESSION1 = getenv("SESSION")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://te.legra.ph/file/79e29bdb6deca463cae04.jpg")
-OWNER_ID = int(getenv("OWNER_ID", "5288547197"))
+OWNER_ID = int(getenv("OWNER_ID", "5655112788"))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
@@ -25,7 +25,7 @@ SESSION8 = getenv("SESSION8")
 SESSION9 = getenv("SESSION9")
 SESSION10 = getenv("SESSION10")
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", "5288547197").split(" ")))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", "5655112788").split(" ")))
 SUDO_USERS.append(OWNER_ID)
 
 for x in THE_ALTS:
